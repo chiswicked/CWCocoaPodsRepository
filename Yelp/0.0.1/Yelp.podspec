@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/chiswicked/Yelp"
   s.license          = 'MIT'
   s.author           = { "chiswicked" => "mr.norbert.metz@googlemail.com" }
-  s.source           = { :git => "https://github.com/chiswicked/Yelp.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/chiswicked/Yelp.git", :tag => "0.0.1" }
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Yelp/**/*'
 
-  s.dependency 'AFNetworking', '~> 3.0.1'
-  s.dependency 'BDBOAuth1Manager', '~> 2.0'
-  s.dependency 'SwiftyJSON', '~> 2.3.2'
+#  s.dependency 'AFNetworking', '~> 3.0.1'
+#  s.dependency 'BDBOAuth1Manager', '~> 2.0'
+#  s.dependency 'SwiftyJSON', '~> 2.3.2'
 end
